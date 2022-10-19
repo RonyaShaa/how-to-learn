@@ -1,0 +1,7 @@
+.logo_place_header { 
+    position: absolute;
+    background-image: url(/home/veronika/dev/how-to-learn/images/logo_place_header.svg);
+    background-size: cover;
+    top: 30px;
+    left: 64px;
+  }

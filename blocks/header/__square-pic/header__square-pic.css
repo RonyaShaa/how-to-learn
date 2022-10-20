@@ -6,6 +6,5 @@
     top: 64px;
     z-index: 0;
     background-color: #2f80ed;
-    background-size: cover;
-    animation: rotation 20s infinite; 
+    background-size: cover; 
   }

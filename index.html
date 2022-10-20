@@ -4,21 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./index/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
   <div class="page">
     <header class="header">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
-      <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#" class="header__link"> Узнать &rarr;</a></h2>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+        <a href="#" class="header__link"> Узнать &rarr;</a>
+      </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Фрагмент картины 'Опять двойка' Решетникова Федора Павловича">
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
@@ -27,11 +28,11 @@
             </p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
-        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
             <img src="./images/cards-attention.png" alt="Книга Брианны Вист '101 эссе, которые изменят ваше мышление'" class="cards__image">
@@ -62,10 +63,10 @@
       </section>
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
-        <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
-          <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -78,13 +79,12 @@
       </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть</h3>
+        <p class="feynman__subtitle">Выучить и не забыть</p>
         <a href="#" class="feynman__link">Подробнее &rarr;</a>
-        <img class="feynman__img" src="./images/feynman.png" alt="Фотопортрет Фейнмана">
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
             <li class="table__cell">
               <h4 class="table__heading">86 миллиардов</h4>
@@ -126,8 +126,10 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <h4 class="khan__quote-author">Джордж Лукас</h4>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
+            Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания,
+            которые приносят успех в школе, карьере и жизни.</blockquote>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Книга Салман Хан 'Весь мир - школа'">
@@ -137,7 +139,7 @@
       </section>
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -184,12 +186,28 @@
       </section>
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
-        <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
-          <li><a class="resources__link" href="#"></a><img src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас академии"></li>
-          <li><a class="resources__link" href="#"></a><img src="./images/logo/resources-n1.svg" alt=" Логотип научно-популярного развлекательного издания Н+1"></li>
-          <li><a class="resources__link" href="#"></a><img src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка"></li>
-          <li><a class="resources__link" href="#"></a><img src="./images/logo/resources-polka.svg" alt="Логотип Полка"></li>
+          <li>
+            <a class="resources__link" href="#">
+              <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас академии">
+            </a>
+          </li>
+          <li>
+            <a class="resources__link" href="#">
+              <img class="resources__logo" src="./images/logo/resources-n1.svg" alt=" Логотип научно-популярного развлекательного издания Н+1">
+            </a>
+          </li>
+          <li>
+            <a class="resources__link" href="#">
+              <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка">
+            </a>
+          </li>
+          <li>
+            <a class="resources__link" href="#">
+              <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип Полка">
+            </a>
+          </li>
         </ul>
       </section>
     </main>
